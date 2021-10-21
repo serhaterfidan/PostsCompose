@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">PostsCompose</string>
+  <string name="menu_posts">Posts</string>
+  <string name="comments">Comments</string>
+  <string name="summary">Summary</string>
+  <string name="trailers">Trailers</string>
+</resources>
