@@ -1,4 +1,4 @@
-package com.colorsnative.postscompose.ui.posts
+package com.colorsnative.postscompose.ui.main
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

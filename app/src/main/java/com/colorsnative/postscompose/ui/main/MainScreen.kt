@@ -25,7 +25,6 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.colorsnative.postscompose.R
 import com.colorsnative.postscompose.ui.navigation.NavScreen
 import com.colorsnative.postscompose.ui.posts.PostDetailScreen
-import com.colorsnative.postscompose.ui.posts.PostsScreen
 import com.colorsnative.postscompose.ui.theme.purple200
 import com.colorsnative.postscompose.ui.transition.PostsTransitions
 

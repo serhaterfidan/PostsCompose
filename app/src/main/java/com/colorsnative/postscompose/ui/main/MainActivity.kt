@@ -3,7 +3,7 @@ package com.colorsnative.postscompose.ui.main
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import com.colorsnative.postscompose.ui.theme.MovieComposeTheme
+import com.colorsnative.postscompose.ui.theme.PostsComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            MovieComposeTheme {
+            PostsComposeTheme {
 
                 MainScreen()
 

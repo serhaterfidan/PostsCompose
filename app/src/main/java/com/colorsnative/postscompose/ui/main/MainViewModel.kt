@@ -26,8 +26,12 @@ class MainViewModel @Inject constructor(private val postsRepository: PostsReposi
   private val newPostsFlow = postsPageStateFlow.flatMapLatest {
     _postsLoadingState.value = NetworkState.LOADING
     postsRepository.getPosts(
-      success = { _postsLoadingState.value = NetworkState.SUCCESS },
-      error = { _postsLoadingState.value = NetworkState.ERROR }
+      success = {
+        _postsLoadingState.value = NetworkState.SUCCESS
+                },
+      error = {
+        _postsLoadingState.value = NetworkState.ERROR
+      }
     )
   }.shareIn(viewModelScope, SharingStarted.WhileSubscribed(), replay = 1)
 
